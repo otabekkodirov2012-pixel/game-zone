@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GAMER ZONE</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>🎮 GAMER ZONE</h1>
+        <p>Твой мир компьютерных игр</p>
+    </header>
+
+    <nav>
+        <a href="#">Главная</a>
+        <a href="#games">Игры</a>
+        <a href="#about">О сайте</a>
+    </nav>
+
+    <main>
+        <h2 id="games">🔥 Популярные игры</h2>
+
+        <section class="games">
+            <div class="game-card">
+                <img src="https://cdn.cloudflare.steamstatic.com/steam/apps/730/header.jpg" alt="CS2">
+                <h3>Counter-Strike 2</h3>
+                <p>Популярный командный шутер.</p>
+                <a href="https://store.steampowered.com/app/730/" target="_blank">Подробнее</a>
+            </div>
+
+            <div class="game-card">
+                <img src="https://cdn.cloudflare.steamstatic.com/steam/apps/570/header.jpg" alt="Dota 2">
+                <h3>Dota 2</h3>
+                <p>Стратегическая командная игра.</p>
+                <a href="https://store.steampowered.com/app/570/" target="_blank">Подробнее</a>
+            </div>
+
+            <div class="game-card">
+                <img src="https://cdn.cloudflare.steamstatic.com/steam/apps/271590/header.jpg" alt="GTA V">
+                <h3>GTA V</h3>
+                <p>Большой открытый игровой мир.</p>
+                <a href="https://store.steampowered.com/app/271590/" target="_blank">Подробнее</a>
+            </div>
+        </section>
+
+        <h2 id="about">О GAMER ZONE</h2>
+        <p>Сайт для настоящих любителей компьютерных игр!</p>
+    </main>
+
+    <footer>
+        © 2026 GAMER ZONE
+    </footer>
+
+</body>
+</html>
