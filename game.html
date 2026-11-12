@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GAMER ZONE | Игра</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="game.css">
+</head>
+<body>
+
+<header class="hero">
+    <div class="hero-content">
+        <h1>GAMER <span>ZONE</span></h1>
+        <p>ИНФОРМАЦИЯ ОБ ИГРЕ</p>
+    </div>
+</header>
+
+<nav class="navbar">
+    <a href="index.html">Главная</a>
+    <a href="index.html#games">Каталог игр</a>
+</nav>
+
+<main class="game-details">
+    <a href="index.html#games" class="back-button">← Назад к играм</a>
+
+    <img id="gameImage" class="details-image" alt="Обложка игры">
+
+    <h2 id="gameTitle">Загрузка...</h2>
+
+    <span id="gameGenre" class="game-category"></span>
+
+    <p id="gameDescription"></p>
+
+    <div class="game-facts">
+        <p><strong>Жанр:</strong> <span id="gameGenreText"></span></p>
+        <p><strong>Платформа:</strong> PC</p>
+    </div>
+
+    <a id="steamLink" class="steam-button"
+       target="_blank" rel="noopener noreferrer">
+       Открыть в Steam
+    </a>
+</main>
+
+<footer>
+    © 2026 GAMER ZONE
+</footer>
+
+<script src="game-details.js"></script>
+
+</body>
+</html>
